@@ -1,1 +1,16 @@
+
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: 'creaition-regular';
+  src: url('./assets/static/Eina03-Regular.084ad9bd755c32a2.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html, body {
+  font-family: 'creaition-regular' !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
